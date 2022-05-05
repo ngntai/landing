@@ -1,0 +1,36 @@
+.banner {
+  background-image: linear-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0.2) ), url("https://images.unsplash.com/photo-1628689529124-3e0db67e984c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80");
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+  justify-items: center;
+  justify-content: space-around;
+  display: flex;
+  margin: 0;
+}
+
+.banner .container {
+  color: white;
+  background-color: transparent;
+}
+
+.banner .container p {
+  font-size: 20px;
+  color: rgba(255,255,255,0.7);
+}
+
+.banner .container a{
+  display: inline-block;
+  border: 3px solid rgba(210,210,210);
+  border-radius: 24px;
+  border-width: thin;
+  padding: 12px 16px;
+  font-weight: lighter;
+  color: lightgrey;
+  margin: 0 12px;
+}
+
+.banner .container a:hover {
+  border-width: medium;
+  font-weight: bolder;
+}
